@@ -1,25 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 html, body {
+    font-family: 'Inter', sans-serif;;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .container {
     padding: 118px 52px 42px;
-    margin: 50% auto;
-    width: 550px;
-    height: 550px; 
+    margin: 100px auto;
+    width: 500px;
     background: #1F2937;
 }
 
 .heading h1 {
     font-family: 'Karla', sans-serif;
-    font-style: normal;
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
+    margin: 10px 0;
     color: #FFFFFF;
 }
 
@@ -28,10 +28,48 @@ html, body {
 }
 
 .supporting-text p {
-    font-family: Inter;
-    font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
+    margin: 10px 0;
     color: #D5D4D8;
+}
+
+button {
+    height: 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 48px;
+    padding: 9px 18px;
+    color: white;
+    background-color: #10B981;
+    border: none;
+    border-radius: 6px;
+}
+
+svg {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.seperator {
+    margin: 30px 0;
+    border-style: none;
+    border-top: 1px solid #2F3E53;;
+}
+
+.passwords-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.password-container {
+    margin-bottom: 27px;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
 }
