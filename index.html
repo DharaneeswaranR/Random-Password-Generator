@@ -7,13 +7,11 @@
     <title>Random Password Generator</title>
 </head>
 <body>
-    <div class="container">
-        <div class="heading">
+    <main class="container">
+        <header class="heading">
             <h1>Generate a <br><span>random password</span></h1>
-        </div>
-        <div class="supporting-text">
             <p>Never use an insecure password again.</p>
-        </div>
+        </header>
         <div class="btn-container">
             <button class="generate-btn" onclick="generatePassword()">
                 <svg width="50" height="49" viewBox="0 0 50 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,14 +20,14 @@
                 <span>Generate passwords</span>
             </button>
         </div>
-        <hr class="seperator"/>
-        <div class="passwords-container">
+        <hr>
+        <section class="passwords-section">
             <div class="password-container"></div>
             <div class="password-container"></div>
             <div class="password-container"></div>
             <div class="password-container"></div>
-        </div>
-    </div>
+        </section>
+    </main>
     <script src="app.js"></script>
 </body>
 </html>
