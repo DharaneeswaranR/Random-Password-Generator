@@ -5,16 +5,17 @@ html, body {
     font-family: 'Inter', sans-serif;;
     margin: 0;
     padding: 0;
+    background: black;
 }
 
-.container {
+main {
     padding: 118px 52px 42px;
     margin: 100px auto;
     width: 500px;
     background: #1F2937;
 }
 
-.heading h1 {
+h1 {
     font-family: 'Karla', sans-serif;
     font-size: 40px;
     line-height: 40px;
@@ -27,7 +28,7 @@ html, body {
     color: #34D399;
 }
 
-.supporting-text p {
+p {
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
@@ -54,13 +55,14 @@ svg {
     margin-right: 5px;
 }
 
-.seperator {
+
+hr {
     margin: 30px 0;
     border-style: none;
     border-top: 1px solid #2F3E53;;
 }
 
-.passwords-container {
+.passwords-section {
     text-align: center;
     display: grid;
     grid-template-columns: 50% 50%;
