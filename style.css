@@ -6,10 +6,11 @@ html, body {
     margin: 0;
     padding: 0;
     background: black;
+    overflow: hidden;
 }
 
 main {
-    padding: 118px 52px 42px;
+    padding: 110px 52px 42px;
     margin: 100px auto;
     width: 500px;
     background: #1F2937;
@@ -47,6 +48,7 @@ button {
     background-color: #10B981;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 svg {
@@ -65,11 +67,16 @@ hr {
 .passwords-section {
     text-align: center;
     display: grid;
+    justify-items:auto;
     grid-template-columns: 50% 50%;
 }
 
 .password-container {
-    margin-bottom: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #34D399;
+    margin: 20px 0;
     width: 211px;
     height: 39px;
     background: #273549;
